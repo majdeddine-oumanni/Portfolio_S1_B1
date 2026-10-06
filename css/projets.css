@@ -1,0 +1,68 @@
+/* ---------- 1. En-tête ---------- */
+.en-tete {
+  border-bottom: 1px solid var(--couleur-bordure);
+  margin-bottom: 24px;
+}
+
+.en-tete__contenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}
+
+.menu a {
+  font-size: 16px;
+  color: var(--couleur-texte-doux);
+}
+
+/* ---------- 2. Projets ---------- */
+/* Les projets sont empilés les uns sous les autres. */
+.projet {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: var(--rayon);
+}
+
+.projet__image {
+  width: 320px;
+  height: 200px;
+  border-radius: var(--rayon);
+}
+
+.projet h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.projet p {
+  color: var(--couleur-texte-doux);
+}
+
+.technologies {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.technologies li {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: var(--couleur-fond-clair);
+}
