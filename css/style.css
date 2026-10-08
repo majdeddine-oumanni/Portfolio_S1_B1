@@ -156,8 +156,8 @@ a {
 
 .presentation__photo {
   width: 280px;
-  height: 280px;
-  border-radius: 50%;
+  height: 400px;
+  border-radius: 50px;
 }
 
 /* ---------- 5. Sections communes ---------- */
