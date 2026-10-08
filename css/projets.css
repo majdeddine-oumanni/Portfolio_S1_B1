@@ -66,3 +66,7 @@
   font-size: 14px;
   background-color: var(--couleur-fond-clair);
 }
+
+.project-name{
+  text-decoration: underline;
+}
